@@ -25,7 +25,7 @@ result["mode"].each do |mode|
 			puts("    +- " + direction["direction_name"])
 			direction["trip"].each do |trip|
 				puts("      +- " + Time.at(trip["sch_arr_dt"].to_i).strftime("%I:%M:%S"))
-end
-end
-end
+			end
+		end
+	end
 end 
